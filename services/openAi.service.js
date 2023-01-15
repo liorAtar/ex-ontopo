@@ -1,6 +1,6 @@
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-    apiKey: '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'
+    apiKey: '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'
 });
 const openai = new OpenAIApi(configuration);
 
@@ -11,7 +11,6 @@ const recommend = "\n Some popular restaurants in Israel include: \n 1. Carmel M
 
 async function getRecomandation(req, res) {
     try {
-
         const txt = req.query.txt
         const response = await openai.createCompletion({
             model: "text-davinci-002",
@@ -19,7 +18,6 @@ async function getRecomandation(req, res) {
             temperature: 0.9,
             max_tokens: 2048,
         });
-        
         // return response
         res.status(200).json({ result: response.data.choices[0].text });
     } catch (err) {

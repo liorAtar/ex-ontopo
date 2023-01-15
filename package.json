@@ -2,7 +2,9 @@
   "name": "miss-bug-proj",
   "version": "1.0.0",
   "scripts": {
-    "start": "nodemon --ignore \"./data\" server.js"
+    "start": "nodemon server.js",
+    "server:dev": "nodemon server.js",
+    "server:prod": "set NODE_ENV=production&&node server.js"
   },
   "author": "",
   "dependencies": {

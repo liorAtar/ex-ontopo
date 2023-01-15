@@ -1,0 +1,52 @@
+{
+    "carousel": [
+        {
+            "_id": "ab1",
+            "title": {
+                "en": "Restaurants",
+                "he": "מסעדות"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_0,y_0,w_945,h_350/v1665487642/assets/623877a9c7a8c74eb0612ff4/623877a9c7a8c74eb0612ff4/200.jpg"
+        },
+        {
+            "_id": "ab2",
+            "title": {
+                "en": "Bars",
+                "he": "ברים"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_0,y_0,w_945,h_350/v1665487644/assets/623877a9c7a8c74eb0612ff4/623877a9c7a8c74eb0612ff4/201.jpg"
+        },
+        {
+            "_id": "ab3",
+            "title": {
+                "en": "Out for a date",
+                "he": "יוצאים לדייט"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_5,y_0,w_945,h_350/v1672074118/assets/62dfc601a3c44b000f459183/623877a9c7a8c74eb0612ff4/206.jpg"
+        },
+        {
+            "_id": "ab4",
+            "title": {
+                "en": "Wineries",
+                "he": "יקבים"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_0,y_0,w_945,h_350/v1665487708/assets/623877a9c7a8c74eb0612ff4/623877a9c7a8c74eb0612ff4/202.jpg"
+        },
+        {
+            "_id": "ab5",
+            "title": {
+                "en": "Chefs",
+                "he": "שפים"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_0,y_0,w_945,h_350/v1665487706/assets/623877a9c7a8c74eb0612ff4/623877a9c7a8c74eb0612ff4/203.jpg"
+        },
+        {
+            "_id": "ab6",
+            "title": {
+                "en": "Private Events",
+                "he": "אירועים"
+            },
+            "img": "https://res.cloudinary.com/ontopo/image/upload/c_crop,x_0,y_0,w_945,h_350/v1665487707/assets/623877a9c7a8c74eb0612ff4/623877a9c7a8c74eb0612ff4/205.jpg"
+        }
+    ]
+}

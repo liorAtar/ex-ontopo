@@ -26,19 +26,6 @@ app.use('/api/openAi', openAi)
 
 // Express Routing:
 
-// READ
-// app.get('/api/openAi', (req, res) => {
-//     const { txt } = req.body
-//     console.log('req.params', req.body)
-//     openAi.getRecomandation(txt).then((recomandations) => {
-//         res.send(recomandations)
-//     })
-//     .catch((err) => {
-//         console.log('OOPS:', err)
-//         res.status(400).send('Cannot load recomandations')
-//     })
-// })
-
 // LIST
 app.get('/api/carousel', (req, res) => {
     carouselService.query()
